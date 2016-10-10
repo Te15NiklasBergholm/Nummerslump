@@ -1,0 +1,20 @@
+package Kap3;
+import java.swing.*;
+
+import javax.swing.JOptionPane;
+
+public class gissa {
+	public static void main(String[] arg){
+			String gissa1 = JOptionPane.showInputDialog("nummer mellan 1-100");
+				int gissa2 = Integer.parseInt(gissa1);
+					if (gissa2 >= 71){
+					JOptionPane.showMessageDialog(null, "Ditt svar är för högt");
+						}
+					else if (gissa2 == 70){
+						JOptionPane.showMessageDialog(null, "Helt rätt");					
+				}
+					else if (gissa2 <= 69){
+						JOptionPane.showMessageDialog(null, "Ditt svar är för lågt");
+		}
+	}
+}
